@@ -1,0 +1,61 @@
+
+*.AppImage
+build/
+# Build outputs
+.dart_tool/
+*.deb
+# Dependencies
+dist
+dist/
+dist-ssr
+*.dmg
+.DS_Store
+# Editor directories and files
+*.egg-info/
+.eggs/
+.env
+env/
+.env.local
+*.exe
+# Flutter
+*.freezed.dart
+*.g.dart
+# IDE
+.idea
+.idea/
+*.key
+# Large files
+lerna-debug.log*
+*.local
+*.log
+logs
+# Logs
+.next/
+*.njsproj
+node_modules
+node_modules/
+npm-debug.log*
+*.ntvs*
+# OS
+out/
+*.pem
+pnpm-debug.log*
+*.pyc
+__pycache__/
+# Secrets
+*.sln
+*.suo
+*.sw?
+*.swo
+*.swp
+*.tar.gz
+*.tar.xz
+Thumbs.db
+.venv/
+venv/
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+yarn-debug.log*
+yarn-error.log*
+*.zip

@@ -197,6 +197,22 @@ export default function App() {
             onClose={() => setIsPdfModalOpen(false)}
           />
         )}
+
+        {/* Business First Enterprise Footer */}
+        <footer className="mt-auto py-5 px-6 border-t border-[var(--border-subtle)] bg-[var(--surface-dark)]/90 flex flex-col sm:flex-row items-center justify-between text-xs text-[var(--text-muted)] font-mono gap-4">
+          <div className="flex items-center gap-3">
+            <span className="font-semibold text-[var(--text-main)]">
+              &copy; 2026 StudyPlan&trade; &bull; Academic Module Intelligence &amp; Spatial Grounded Workbook Studio
+            </span>
+            <span className="hidden sm:inline opacity-40">&bull;</span>
+            <span className="text-[11px] text-indigo-400">Enterprise EdTech Engine</span>
+          </div>
+          <div className="flex items-center gap-4 text-[11px]">
+            <span>Developed by <strong className="text-[var(--text-main)]">Bonga Manzini</strong></span>
+            <span className="opacity-40">&bull;</span>
+            <a href="https://github.com/BongaManzini/StudyPlan" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 font-bold transition-colors">GitHub Repository</a>
+          </div>
+        </footer>
       </div>
     </ErrorBoundary>
   );
